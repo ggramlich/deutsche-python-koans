@@ -8,11 +8,11 @@ speziell für deutschsprachige Lernende entwickelt und verwendet einfache,
 kindgerechte Sprache.
 
 Die Aufgaben werden gelöst, indem du die fehlenden Teile von assert-Anweisungen 
-ausfüllst. Zum Beispiel:
+ausfüllst. Zum Beispiel::
 
     assert 1 + 3 == __, "Was ergibt 1 + 3?"
 
-Das kann gelöst werden, indem du den __ Teil durch den passenden Code ersetzt:
+Das kann gelöst werden, indem du den __ Teil durch den passenden Code ersetzt::
 
     assert 1 + 3 == 4, "Was ergibt 1 + 3?"
 
@@ -24,20 +24,30 @@ Diese Koans sind speziell für Anfänger und junge Lernende entwickelt:
 - 🐍 Direkt in Thonny oder anderen Python-Umgebungen ausführbar
 
 
-Deutsche Python Koans herunterladen
------------------------------------
+Projekt herunterladen
+=====================
 
-Deutsche Python Koans ist verfügbar über git auf Github:
+Du findest Deutsche Python Koans auf Github:
 
     https://github.com/ggramlich/deutsche-python-koans
 
-Du kannst den Quellcode als zip herunterladen oder das Repository klonen.
+Du kannst den Quellcode als zip herunterladen oder das Repository klonen::
 
+    git clone https://github.com/ggramlich/deutsche-python-koans.git
 
-Python installieren
--------------------
+Installation und Umgebung
+=========================
 
-Du kannst Python hier herunterladen:
+**Empfohlene Option: Thonny verwenden**
+
+Thonny ist eine besonders einfache Python-Umgebung für Einsteiger und Kinder. 
+Du kannst Thonny direkt von https://thonny.org/ herunterladen und installieren. 
+Python ist bereits enthalten – du musst nichts extra installieren!
+
+**Alternative Option: Python manuell installieren und im Terminal ausführen**
+
+Falls du lieber eine andere Umgebung nutzen möchtest, kannst du Python auch 
+manuell installieren:
 
     http://www.python.org/download
 
@@ -51,11 +61,16 @@ Bei Problemen kann das helfen:
 
     http://www.python.org/about/gettingstarted
 
-
 Erste Schritte
---------------
+==============
 
-Gehe zum `koans`-Ordner und führe eine der Dateien direkt aus::
+So startest du:
+1. Thonny installieren: https://thonny.org/
+2. Öffne Thonny.
+3. Öffne eine der Koan-Dateien (z.B. ``about_asserts.py``).
+4. Klicke auf "Ausführen" (F5).
+
+Oder im Terminal:
 
     python3 koans/about_asserts.py
 
@@ -99,7 +114,9 @@ So findest du heraus, was der richtige Wert ist!
 Die Koans ausführen
 ==================
 
-Eine einzelne Koan-Datei ausführen::
+**In Thonny:** Öffne einfach eine der Dateien und klicke auf "Ausführen" (F5).
+
+**Im Terminal:** Eine einzelne Koan-Datei ausführen::
 
   $ python3 koans/about_strings.py
 
@@ -118,11 +135,9 @@ Alle Koans nacheinander bearbeiten::
   $ python3 koans/about_loops.py
   $ python3 koans/about_while_loops.py
 
-**In Thonny:** Öffne einfach eine der Dateien und klicke auf "Ausführen" (F5).
-
 
 Danksagungen und Inspiration
----------------------------
+============================
 
 Diese deutschen Koans basieren auf der Idee der originalen Python Koans 
 von Greg Malcolm:
@@ -146,7 +161,7 @@ Diese deutsche Version wurde speziell entwickelt, um:
 
 
 Was du gelernt hast
--------------------
+===================
 
 Nach dem Durcharbeiten aller Koans kennst du:
 
